@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/aws-codedeploy-bitbucket-laravel
+hooks:
+  AfterInstall:
+    - location: ./devops/hooks/after-install.sh
+      runas: ubuntu
