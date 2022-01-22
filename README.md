@@ -5,6 +5,8 @@
 ![Forks](https://img.shields.io/github/forks/tquangdo/aws-bbucket-pline-cicd-laravel8?color=f05340)
 [![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-bbucket-pline-cicd-laravel8/issues/new)
 
+![overview](screenshots/overview.png)
+
 ## reference
 1. [youtube](https://www.youtube.com/watch?v=YQsHMbbcIBo)
 2. [bitbucket](https://bitbucket.org/eezaamout/aws-codedeploy-bitbucket-laravel)
