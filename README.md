@@ -6,7 +6,8 @@
 [![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-bbucket-pline-cicd-laravel8/issues/new)
 
 ## reference
-[youtube](https://www.youtube.com/watch?v=YQsHMbbcIBo)
+1. [youtube](https://www.youtube.com/watch?v=YQsHMbbcIBo)
+2. [bitbucket](https://bitbucket.org/eezaamout/aws-codedeploy-bitbucket-laravel)
 
 ## [Bitbucket] Create Repository
 - create project name=`aws-bbucket-pline-cicd-laravel8`
