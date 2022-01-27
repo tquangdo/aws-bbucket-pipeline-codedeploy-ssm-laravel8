@@ -84,7 +84,7 @@ git push
 "http": all,
 "https": all,
 ```
-- tags key=`CodeDeploy`
+- tags key=`CodeDeploy` (and key=`Name` & value=`CodeDeploy`)
 
 ## [AWS RDS] Create RDS - MySQL Server
 - method=`standard create`
@@ -246,6 +246,11 @@ php artisan migrate
 ```
 - see final res:
 ![finalres](screenshots/finalres.png)
+
+## delete AWS resources
+```shell
+./del_aws_resource.sh
+```
 
 ---
 
