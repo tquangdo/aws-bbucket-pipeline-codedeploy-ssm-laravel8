@@ -1,9 +1,9 @@
-# aws-bbucket-pline-codedeploy-ssm-laravel8 🐳
+# aws-bbucket-pipeline-codedeploy-ssm-laravel8 🐳
 
-![Stars](https://img.shields.io/github/stars/tquangdo/aws-bbucket-pline-codedeploy-ssm-laravel8?color=f05340)
-![Issues](https://img.shields.io/github/issues/tquangdo/aws-bbucket-pline-codedeploy-ssm-laravel8?color=f05340)
-![Forks](https://img.shields.io/github/forks/tquangdo/aws-bbucket-pline-codedeploy-ssm-laravel8?color=f05340)
-[![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-bbucket-pline-codedeploy-ssm-laravel8/issues/new)
+![Stars](https://img.shields.io/github/stars/tquangdo/aws-bbucket-pipeline-codedeploy-ssm-laravel8?color=f05340)
+![Issues](https://img.shields.io/github/issues/tquangdo/aws-bbucket-pipeline-codedeploy-ssm-laravel8?color=f05340)
+![Forks](https://img.shields.io/github/forks/tquangdo/aws-bbucket-pipeline-codedeploy-ssm-laravel8?color=f05340)
+[![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-bbucket-pipeline-codedeploy-ssm-laravel8/issues/new)
 
 ![overview](screenshots/overview.png)
 
@@ -12,18 +12,18 @@
 2. [bitbucket](https://bitbucket.org/eezaamout/aws-codedeploy-bitbucket-laravel)
 
 ## [Bitbucket] Create Repository
-- create project name=`aws-bbucket-pline-codedeploy-ssm-laravel8`
-- `composer create-project laravel/laravel aws-bbucket-pline-codedeploy-ssm-laravel8`
+- create project name=`aws-bbucket-pipeline-codedeploy-ssm-laravel8`
+- `composer create-project laravel/laravel aws-bbucket-pipeline-codedeploy-ssm-laravel8`
 ```shell
 git init
 git add .
 git commit -m 'add Laravel proj'
-git remote add origin https://dotranquang@bitbucket.org/dotranquang/aws-bbucket-pline-codedeploy-ssm-laravel8.git
+git remote add origin https://dotranquang@bitbucket.org/dotranquang/aws-bbucket-pipeline-codedeploy-ssm-laravel8.git
 git branch -vv
 git push -u -f origin master
 ```
 ## [Bitbucket] Create Pipeline
-- create `aws-bbucket-pline-codedeploy-ssm-laravel8/bitbucket-pipelines.yml`(by default)
+- create `aws-bbucket-pipeline-codedeploy-ssm-laravel8/bitbucket-pipelines.yml`(by default)
 ![pline1](screenshots/pline1.png)
 
 ## [Bitbucket] Pipeline - Build Server
