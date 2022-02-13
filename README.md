@@ -228,7 +228,18 @@ DB_PASSWORD=xxx
 ![systemmanager](screenshots/systemmanager.png)
 - create policy `DTQPolicyLaravel8` for role=`DTQRoleLaravel8`
 ![policy](screenshots/policy.png)
-- create `devops/scripts/generate-env.sh`
+- create `devops/scripts/generate-env.sh`, src code using SSM
+```shell
+PARAMATER="DTQSystemManagerParamStore"
+REGION="us-east-1"
+
+# Get parameters and put it into .env file inside application root
+aws ssm get-parameter \
+  --with-decryption \
+  --name $PARAMATER \
+  --region $REGION \
+  ...
+```
 - edit `resources/views/welcome.blade.php > <h1>HELLO DTQ!!!</h1>`
 ```shell
 ...
